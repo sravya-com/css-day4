@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a {
+            width: 290px;
+            height: 60px;
+            border: 2px solid rgba(0, 0, 0, 71);
+            background-color: rgba(24, 227, 62, 0.626);
+            position: fixed;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+
+        }
+
+        .b {
+            position: absolute;
+            top: 20px;
+        }
+
+        .c {
+            width: 40px;
+            border-radius: 50%;
+            position: absolute;
+            left: 25px;
+            bottom: 7px;
+        }
+
+        .d {
+            position: absolute;
+            left: 70px;
+            top: -1px;
+        }
+
+        .e {
+            position: absolute;
+            left: 70px;
+            bottom: -10px;
+
+        }
+
+        .f {
+            position: relative;
+            width: 50px;
+            left: 160px;
+            top: 8px;
+
+        }
+
+        .g {
+            width: 30px;
+            position: relative;
+            left: 160px;
+            top: -5px;
+        }
+
+        .h {
+            width: 20px;
+            position: relative;
+            left: 155px;
+            top: -7px;
+            cursor: pointer;
+        }
+
+        .sravya {
+            width: 290px;
+            height: 300px;
+            border: 2px solid;
+            overflow-y: scroll;
+            scrollbar-width: none;
+            position: relative;
+            top: 60px;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/033/107/982/non_2x/dog-and-cat-cute-pets-web-banner-with-copy-space-generative-ai-photo.jpg);
+            background-position: center;
+            background-size: cover;
+            border-bottom-color: aliceblue;
+
+
+        }
+
+        .navya {
+            width: 310px;
+            height: 50px;
+            border: 1px solid;
+            position: fixed;
+        }
+
+        .no {
+            border: solid;
+            width: 280px;
+            height: 20px;
+        }
+
+        .to {
+            text-align: center;
+            background-color: blanchedalmond;
+            width: 70px;
+            height: 20px;
+            position: sticky;
+            top: 30px;
+            left: 120px;
+            border-radius: 7px;
+            text-transform: uppercase;
+
+
+        }
+
+        .hi {
+            width: 30px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 9px;
+
+        }
+
+        .hii {
+            width: 60px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 9px;
+
+        }
+
+        .hlo {
+            width: 180px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 9px;
+        }
+
+        .span {
+            width: 80px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 9px;
+
+        }
+
+        .contand {
+
+            position: absolute;
+            margin-top: -15px;
+            background-color: rgba(15, 14, 14, 0.808);
+            border-radius: 20px;
+            width: 30px;
+        }
+
+        .cat {
+            width: 60px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: absolute;
+            left: 230px;
+
+        }
+
+        .li {
+            width: 100px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: absolute;
+            left: 190px;
+        }
+
+        .ol {
+            width: 250px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: absolute;
+            left: 35px;
+
+        }
+
+        .tl {
+            width: 280px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: absolute;
+            right: 1px;
+        }
+
+        .vn {
+            width: 60px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: absolute;
+            right: 1px;
+        }
+
+        .su {
+            border: 2px solid;
+            width: 290px;
+            height: 40px;
+            position: absolute;
+            bottom: 135px;
+            border-top-color: aliceblue;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        .qs {
+            width: 240px;
+            height: 30px;
+            border-radius: 30px;
+            border-color: black;
+            margin-left: 4px;
+        }
+
+        .kavya {
+            width: 60px;
+            height: 30px;
+            position: absolute;
+            right: 100px;
+            top: 2px;
+        }
+
+        .rupee {
+            width: 60px;
+            height: 30px;
+            position: absolute;
+            right: 60px;
+            top: 2px;
+        }
+
+        .plus {
+            width: 60px;
+            height: 30px;
+            position: absolute;
+            right: 20px;
+            top: 2px;
+        }
+
+        .micro {
+            width: 60px;
+            height: 30px;
+            position: absolute;
+            right: -7px;
+            top: 2px;
+        }
+
+        .kl {
+            width: 150px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: absolute;
+            right: 1px;
+        }
+
+        .mo {
+            width: 60px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: absolute;
+
+        }
+
+        .first {
+            width: 60px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 230px;
+        }
+
+        .last {
+            width: 90px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 200px;
+        }
+
+        .long {
+            width: 50px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+
+        }
+
+        .small {
+            width: 180px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+
+        }
+
+        .big {
+            width: 80px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .grater {
+            width: 90px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 200px;
+        }
+
+        .grand {
+            width: 90px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 200px;
+        }
+
+        .low {
+            position: relative;
+            left: 60px;
+        }
+
+        .cool {
+            width: 110px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 180px;
+        }
+
+        .hot {
+            width: 130px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 160px;
+        }
+
+        .jasa {
+            width: 130px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 160px;
+        }
+
+        .smile {
+            width: 50px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+
+        }
+
+        .op {
+            width: 60px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .os {
+            width: 160px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 120px;
+        }
+
+        .as {
+            width: 230px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 50px;
+
+        }
+
+        .along {
+            width: 40px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+
+        }
+
+        .among {
+            width: 50px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .time {
+
+            width: 80px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .bn {
+
+            width: 140px;
+            height: 20px;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            border-radius: 15px;
+            position: relative;
+            left: 140px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <img src="./images.html/left-arrow.svg">
+        <img src="https://i.pinimg.com/236x/2f/0b/66/2f0b662386096e631666be8ee080a9df.jpg" class="c">
+        <p class="d">Pawan kalyan</p>
+        <p class="e">Online</p>
+        <img src="./images.html/video-call.svg" class="f">
+        <img src="./images.html/phone.svg" class="g">
+        <img src="./images.html/dots.svg" class="h">
+    </div>
+    <div class="sravya">
+        <p class="to">23 dec</p>
+        <p class="hi">Hii</p>
+        <p class="hlo">sravya Happy Birthday Ra</p>
+        <p class="span">
+            <img src="./images.html/birthday-cake-svgrepo-com.svg" width="20px">
+            <img src="./images.html/birthday-cake-svgrepo-com.svg" width="20px">
+            <img src="./images.html/red-heart-svgrepo-com.svg" width="20px">
+        </p>
+        <span class="contand">
+            <center> <img src="./images.html/red-heart-svgrepo-com.svg" width="20px"></center>
+        </span>
+        <span class="cat">Tq&#128536;&#10003;</span><br><br>
+        <span class="li"> so mach sir&ensp;&#10003;</span><br><br>
+        <span class="ol">This is a best movement of my life&ensp;&#10003;</span><br><br>
+        <span class="tl">i realy don't for get this until my deadth&ensp;&#10003;</span><br><br>
+        <span class="vn">sir&#128525; &#10003;</span><br><br>
+        <p class="kl">i am big fan of u sir&#10003;</p><br>
+        <p class="mo">oh avna</p><br><br>
+
+        <p class="to">24dec</p>
+        <p class="first">hii sir&#10003;</p>
+        <p class="last">ala unnaru&#10003;</p>
+        <p class="long">hii ra</p>
+        <p class="small">Bagunnanu nv ala unnav</p>
+        <p class="big">alll ok na</p>
+        <p class="grater">am fine sir&#10003;</p>
+        <p class="grand">all good sir&#10003;</p>
+        <p class="low">
+            <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722470400&semt=sph"
+                width="150px" class="low" &#10003;>
+        </p>
+        <p class="cool">ala undhe sir&#10003;</p>
+        <p class="hot">nene edite chesa&#10003;</p>
+        <p class="jasa">me party kosam&#10003;</p>
+        <p class="to">25dec</p>
+        <p class="smile">wow</p>
+        <p class="op">good ra &#x1F91D;</p>
+        <p class="to">26dec</p>
+        <p class="os">hlo pawan kalyan garu&#10003;</p>
+        <p class="as">me party lo nanu join cheskuntara&#10003;</p>
+        <p class="along">ha</p>
+        <p class="among">nv ha</p>
+        <p class="date">
+            <audio controls autoplay>
+                <source src="./images.html/Ammaye Sannaga-SenSongsMp3.Co.mp3">
+            </audio>
+        </p>
+        <p class="time">ok join ka</p>
+        <p class="bn">tqq so mach sir &#129321;
+            &#10003;</p>
+    </div>
+    <div class="su">
+        <input type="text" placeholder="&#128578;&ensp;Message........." class="qs">
+        <img src="./images.html/camera-svgrepo-com.svg" class="kavya">
+        <img src="./images.html/rupee-sign-svgrepo-com.svg" class="rupee">
+        <img src="./images.html/plus-circle-1427-svgrepo-com.svg" class="plus">
+        <img src="./images.html/mic-microphone-radio-svgrepo-com.svg" class="micro">
+    </div>
+    <div>
+</body>
+</html>
